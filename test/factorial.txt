@@ -1,0 +1,5 @@
+let i = ref 1 in 
+let fact = ref 1 in
+while !i <= 10 do
+    fact := !fact * !i;
+    i := !i + 1

@@ -1,0 +1,1 @@
+let x = ref (let f = (fun x -> x + 1) in f 0) in !x

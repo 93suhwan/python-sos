@@ -1,0 +1,1 @@
+let y = ref 0 in (fun x -> x + 1) (!y)

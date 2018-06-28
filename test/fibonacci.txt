@@ -1,0 +1,8 @@
+let i = ref 1 in
+let fib1 = ref 0 in
+let fib2 = ref 1 in
+while !i <= 10 do
+    let tmp = !fib2 in
+    fib2 := !fib1 + !fib2;
+    fib1 := tmp;
+    i := !i + 1

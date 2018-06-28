@@ -1,0 +1,1 @@
+let x = ref 0 in let y = ref 1 in let z = ref (!x - !y) in let k = ref (10 * !z) in !k
